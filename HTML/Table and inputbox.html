@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table example</title>
+</head>
+<body>
+<h2>Understanding Tables</h2>
+<table border="1px">
+<tr>
+    <td colspan="2">data1</td>
+<!--    <td>   data2  </td> here it is removed because two cols are merged-->
+    <td>   data3  </td>
+</tr>
+<tr>
+    <td>   data4  </td>
+    <td>   data5  </td>
+    <td>   data6  </td>
+</tr>
+<tr>
+    <td  rowspan="2">   data7  </td>
+    <td>   data8  </td>
+    <td>   data9  </td>
+</tr><tr>
+<!--<td>   data10  </td> here it is removed because two rows are merged-->
+    <td>   data11  </td>
+    <td>   data12  </td>
+</tr>
+
+</table>
+
+<br>
+<hr>
+<h2>Getting inputs from the User</h2>
+<form action="#">
+<label for="name">Enter your name:</label>
+<input type="Text"name="name" placeholder="Name Box">
+<br>
+<br>
+
+<label for="password">Enter your password:</label>
+<input type="password" name="password" placeholder="password" required>
+<br>
+<br>
+
+<label for="email">Enter your Email:</label>
+<input type="email" name="email" placeholder="email" required>
+<br>
+<br>
+
+
+<input type="button" value="Submit">
+<br>
+<br>
+    <h3>Radio button </h3>
+<input type="radio" name="radio1" value="Yes"><!-- name and for value should be same-->
+<label for="radio1">Yes</label>
+<br>
+<br>
+<input type="radio" name="radio1">
+<label for="radio2">No</label>
+<br>
+<br>
+<input type="radio" name="radio1"> <!--The name attriute should be same for all radio button-->
+<label for="radio3">Cancel</label>
+<br>
+<br>
+    <h3> Check box</h3>
+<input type="checkbox" name="chk1">
+<label for="chk1">Check one</label>
+    <input type="checkbox" name="chk2">
+<label for="chk1">Check two</label>
+    <input type="checkbox" name="chk3">
+<label for="chk1">Check three</label>
+  <hr>
+<br>
+<br>
+
+        <label for="se">Selection</label>
+        <select name="se">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </select>  <hr>
+<br>
+<br>
+<h1>Tokyo</h1>
+
+<p>
+Tokyo is the capital of Japan, the most populous <strong>metropolitan</strong>  area in the world.
+My favorite color is<del>blue</del> red.
+</p>
+</form>
+</body>
+</html>
